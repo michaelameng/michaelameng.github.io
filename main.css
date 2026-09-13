@@ -1,18 +1,7 @@
-body {
-  background-color: #fff;
-}
-
 main {
   margin-inline: auto;
   width: 100%;
-  max-width: 800px;
-  overflow-wrap: break-word;
-}
-
-.name {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 15px;
+  max-width: 1000px;
 }
 
 .about {
@@ -25,6 +14,7 @@ main {
 
 .photo {
   flex: 1;
+  width: 100%;
   max-width: 300px;
 }
 
@@ -32,18 +22,8 @@ main {
   flex: 1;
 }
 
-a:link {
-  color: #19348a;
-  text-decoration: underline;
-}
-
-a:visited {
-  color: #6b2a7e;
-  text-decoration: underline;
-}
-
-a:hover,
-a:focus {
-  color: #2a4bb8;
-  text-decoration: underline;
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
