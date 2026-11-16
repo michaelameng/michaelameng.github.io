@@ -12,13 +12,34 @@
   font-display: swap;
 }
 
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --link: #2b59c3;
+  --link-visited: #6243b0;
+  --link-hover: #183b8c;
+}
+
 body {
   margin: 0;
-  background: #ffffff;
-  color: #1a1a1a;
+  background: var(--bg);
+  color: var(--text);
   font-family: "Hanken Grotesk", Helvetica, Arial, sans-serif;
   font-weight: 350;
   line-height: 1.5;
+}
+
+a {
+  color: var(--link);
+}
+
+a:visited {
+  color: var(--link-visited);
+}
+
+/* After :visited so hover also applies to visited links */
+a:hover {
+  color: var(--link-hover);
 }
 
 h1,
