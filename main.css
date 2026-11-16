@@ -1,15 +1,36 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("fonts/raleway.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("fonts/hanken-grotesk.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
 body {
   margin: 0;
   background: #ffffff;
   color: #1a1a1a;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Hanken Grotesk", Helvetica, Arial, sans-serif;
+  font-weight: 350;
   line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-feature-settings: "ss09";
 }
 
 main {
   margin-inline: auto;
   width: 100%;
-  max-width: 800px;
+  max-width: 700px;
   padding: 2.5rem 1.25rem 3.5rem;
   box-sizing: border-box;
 }
@@ -17,7 +38,8 @@ main {
 .name {
   font-size: 32px;
   font-weight: bold;
-  margin: 0 0 1.75rem;
+  line-height: 1;
+  margin: 0 0 1.5rem;
 }
 
 .about {
