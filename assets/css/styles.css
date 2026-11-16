@@ -17,7 +17,7 @@
   --text: #1a1a1a;
   --link: #2b59c3;
   --link-visited: #6243b0;
-  --link-hover: #183b8c;
+  --link-hover: #112c6e;
 }
 
 body {
@@ -25,6 +25,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: "Hanken Grotesk", Helvetica, Arial, sans-serif;
+  font-size: 17px;
   font-weight: 350;
   line-height: 1.5;
 }
@@ -57,7 +58,7 @@ main {
 }
 
 .name {
-  font-size: 32px;
+  font-size: 34px;
   font-weight: bold;
   line-height: 1;
   margin: 0 0 1.5rem;
@@ -86,7 +87,7 @@ main {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   margin: 2.5rem 0 0.5rem;
 }
